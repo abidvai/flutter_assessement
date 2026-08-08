@@ -22,6 +22,12 @@ Build a Flutter app demonstrating API integration, navigation, state management,
 - **Dark Mode**: Fully supports System Dark Mode with a manual toggle in the AppBar.
 - **Unit Tests**: Domain layer business logic (UseCases) thoroughly tested with Flutter's built-in testing suite.
 
+## Performance Optimizations
+To ensure the app maintains a buttery-smooth 60fps even on lower-end devices, the following optimizations were implemented:
+- **Background JSON Parsing**: Leveraged Flutter's `compute` function to parse large API responses on a separate Isolate, guaranteeing the main UI thread is never blocked.
+- **Lazy Rendering**: Utilized `GridView.builder` and `ListView.builder` for efficient, on-demand UI rendering.
+- **Image Caching**: Integrated `cached_network_image` to prevent re-fetching heavy image assets during scrolling.
+
 ## Architecture & Code Quality
 The project strictly follows **Clean Architecture** principles, dividing the application into feature-based modules. This ensures scalability, maintainability, and separation of concerns.
 
