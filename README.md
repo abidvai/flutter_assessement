@@ -1,17 +1,12 @@
-# flutter_assessment_task
+# Flutter Assessment
 
-A new Flutter project.
+A modern Flutter e-commerce application demonstrating API integration, Clean Architecture, advanced state management (Riverpod), error handling, pagination, and theme management (Dark/Light mode).
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+- Clean Architecture (Domain, Data, Presentation)
+- Riverpod for State Management
+- Pagination & Pull-to-refresh
+- Modern UI with Shimmer loading and Animated Splash Screen
+- System & Manual Dark Mode
+- Full Error Handling with Retry mechanisms
+- Unit tests for UseCases
