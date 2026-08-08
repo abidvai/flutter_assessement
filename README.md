@@ -7,6 +7,10 @@ A modern, production-ready Flutter e-commerce application developed as part of a
 ## Objective
 Build a Flutter app demonstrating API integration, navigation, state management, error handling, and clean code.
 
+## 📥 Download APK
+You can directly download and test the compiled Android application here:
+- **[Download flutter_assessment_app.apk](apk/flutter_assessment_app.apk)**
+
 ## Features Implemented
 - **Products Listing**: Fetches and displays products with images, titles, and prices.
 - **Search Functionality**: Users can search for specific products seamlessly.
