@@ -51,12 +51,38 @@ lib/
 - **Functional Programming**: `dartz` (Either types for Failure/Success handling).
 - **UI Enhancements**: `shimmer` (for skeleton loading), `cached_network_image`.
 
-## How to Run
-1. Clone the repository.
-2. Ensure you are on the Flutter stable channel (`flutter channel stable`).
-3. Run `flutter pub get` to install dependencies.
-4. Run the app using `flutter run`.
-5. To execute unit tests, run `flutter test`.
+## Build & Test Instructions
+
+### Running the App Locally
+```bash
+# 1. Get packages
+flutter pub get
+
+# 2. Run the application
+flutter run
+```
+
+### Running Automated Tests
+The project includes unit tests for the domain layer (UseCases) to ensure business logic remains robust.
+```bash
+flutter test
+```
+
+### Building for Production (Release)
+To build a release APK for Android testing:
+```bash
+flutter build apk --release
+```
+
+To build a release AppBundle for the Google Play Store:
+```bash
+flutter build appbundle --release
+```
+
+To build for iOS (Requires macOS and Xcode):
+```bash
+flutter build ios --release
+```
 
 ---
 *Developed with a focus on writing clean, scalable, and production-level Flutter code.*
